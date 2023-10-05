@@ -5,51 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>UX/UI Homework 20</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Used Bootstrap Nav component -->
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#section1">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">Problem Statement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Iterations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section4" >Prototype</a>
+        </li>
+      </ul>
 
 
+<!--Used Bootstrap Jumbotron component-->
+
+      <div class="jumbotron">
+        <h1 class="display-4">Department of Interior</h1>
+        <p class="lead"> This is my government agency website redesign</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+      </div>
+<div class= "container-fluid" >
     <section id="section1" class="py-5 bg-primary text-white">
         <div class="container">
-            <h1>Section 1</h1>
+            <h1>Research</h1>
             <p>Content for Section 1 goes here.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
         </div>
     </section>
     
+    <!-- Problem statement section
+    Used Bootstrap jumbotron -->
     <section id="section2" class="py-5">
         <div class="container">
-            <h1>Section 2</h1>
-            <p>Content for Section 2 goes here.</p>
+            <div class="jumbotron">
+                <h1 class="display-4">Problem Statement</h1>
+                <p class="lead"> Problem statement goes here</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+              </div>
         </div>
     </section>
-    
+
+    <!-- Iteration section
+    Used bootstrap card group -->
+
     <section id="section3" class="py-5 bg-primary text-white">
         <div class="container">
             <h1>Section 3</h1>
             <p>Content for Section 3 goes here.</p>
+            <div class="card-group">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
     
-    <section id="section4" class="py-5">
-        <div class="container">
-            <h1>Section 4</h1>
+    <!-- Prototype section
+    Used boostrap col system -->
+    <div class="row">
+    <section id="section4" class="py-5 col-12">
+        <div class="container col-8">
+            <h1>Prototype</h1>
             <p>Content for Section 4 goes here.</p>
+            <img src="https://www.doi.gov/sites/doi.gov/files/styles/featured_image/public/default_images/doisealonbkgnd900x519_0.jpg?itok=1Ur_JQSi">
         </div>
     </section>
-    
-    <section id="section5" class="py-5 bg-primary text-white">
-        <div class="container">
-            <h1>Section 5</h1>
-            <p>Content for Section 5 goes here.</p>
-        </div>
-    </section>
-    
-    <section id="section6" class="py-5">
-        <div class="container">
-            <h1>Section 6</h1>
-            <p>Content for Section 6 goes here.</p>
-        </div>
-    </section>
+</div>
+</div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
